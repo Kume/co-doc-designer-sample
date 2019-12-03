@@ -1,0 +1,3 @@
+tables:
+  users: tables/users.yml
+  article: tables/article.yml

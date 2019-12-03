@@ -1,0 +1,23 @@
+label: ユーザー
+description: システムに登録されているユーザーを表します。
+columns:
+  id:
+    label: ID
+    type: INT
+    length: 11
+  last_name:
+    label: 姓
+    type: VARCHAR
+    length: 20
+  first_name:
+    label: 名
+    type: VARCHAR
+    length: 20
+  updated_at:
+    label: 作成日時
+    type: DATETIME
+  created_at:
+    type: DATETIME
+indexes:
+  ix__created_at:
+    column1: created_at

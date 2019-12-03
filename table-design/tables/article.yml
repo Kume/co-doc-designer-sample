@@ -1,0 +1,22 @@
+label: 記事
+columns:
+  id:
+    label: ID
+    type: INT
+    length: 11
+  title:
+    label: タイトル
+    type: VARCHAR
+    length: 200
+  content:
+    label: ''
+    type: TEXT
+  updated_at:
+    label: 作成日時
+    type: DATETIME
+  created_at:
+    type: DATETIME
+indexes:
+  ix_title:
+    column1: title
+    column2: null
